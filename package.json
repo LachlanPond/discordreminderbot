@@ -1,0 +1,23 @@
+{
+  "name": "discordreminderbot",
+  "version": "1.0.0",
+  "description": "Simple Discord reminder manager bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LachlanPond/discordreminderbot.git"
+  },
+  "author": "Lachlan Pond",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/LachlanPond/discordreminderbot/issues"
+  },
+  "homepage": "https://github.com/LachlanPond/discordreminderbot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0"
+  }
+}
