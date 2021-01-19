@@ -1,0 +1,5 @@
+Available commands:
+!help                               - Display this help message
+!remindme [reminder]                - Add a reminder to your list of reminders
+!reminders                          - Lists all of your reminders
+!reminderdelete [reminder number]   - Delete the reminder specified by the reminder number (can be found by listing reminders)
