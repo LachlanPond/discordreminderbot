@@ -1,5 +1,6 @@
 # Custom
 database.json
+*.pem
 
 # Logs
 logs

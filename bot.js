@@ -14,9 +14,20 @@ client.login(process.env.TOKEN_BOT);
 
 client.on('ready', () => {
     console.log(`Logged in as ${client.user.tag}`);
+    // const guild = client.guilds.cache.get("301260270372651018");
 });
 
 client.on('message', msg => {
+
+    if (msg.author.username === 'Rare Drop Bot') {
+        msg.delete();
+        // let napo = client.users.fetch('105178931413454848');
+        msg.channel.send(`<@105178931413454848> My bot removed one of the Rare Drop Bot's messages for you <:StylePag:798479788971917333>. Use !unsubsribe to stop receiving confirmation messages.`)
+    }
+
+    if (msg.content.startsWith('!unsubscribe')) {
+        msg.reply('FUCK YOU JARED <:Widemonz1:779989352062386178> <:Widemonz2:779989352977661952> <:Widemonz3:779989521285906442>')
+    }
 
     if (msg.content.startsWith('!reminders')) {
         console.log(`Command from ${msg.author.username}: !reminders`);
